@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E75958D6-FECD-48D5-B39D-959A154F6A96}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{BBA73CC9-4BA0-4BAB-81ED-622B44FCF054}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Presentation", "1-Presentation", "{8B3EBEEC-F8EC-45E0-A207-9C830524FE26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Application", "2-Application", "{21514EFD-D512-4CE5-A3B0-421B5AD9649E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{06CCB34D-6E50-488D-A192-129F0ADF8152}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infrastructure", "4-Infrastructure", "{E7129783-BC1A-4433-A536-C7296D5A8E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelryErpmini.WebUI", "JewelryErpmini.WebUI\JewelryErpmini.WebUI.csproj", "{2BC05199-9E4B-45D0-9EFF-6F1DCBF0B0DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelryErpmini.Application", "JewelryErpmini.Application\JewelryErpmini.Application.csproj", "{96AB2AE2-2CC8-48BA-87FF-6DC25063A99A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelryErpmini.Domain", "JewelryErpmini.Domain\JewelryErpmini.Domain.csproj", "{23FE4D7D-AF0C-4ED2-9123-D2F78B0D5304}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelryErpmini.Infrastructure", "JewelryErpmini.Infrastructure\JewelryErpmini.Infrastructure.csproj", "{A863EC09-B45C-404A-886A-6B8D803FE162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelryErpmini.Repository", "JewelryErpmini.Repository\JewelryErpmini.Repository.csproj", "{55AD2DB6-0DE8-4C6B-8490-780A5231BDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JewelryErpmini.Infrastructure.Interfaces", "JewelryErpmini.Infrastructure.Interfaces\JewelryErpmini.Infrastructure.Interfaces.csproj", "{305E06FE-BD55-4003-BF35-CFA8C1A881D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BC05199-9E4B-45D0-9EFF-6F1DCBF0B0DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC05199-9E4B-45D0-9EFF-6F1DCBF0B0DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC05199-9E4B-45D0-9EFF-6F1DCBF0B0DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC05199-9E4B-45D0-9EFF-6F1DCBF0B0DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96AB2AE2-2CC8-48BA-87FF-6DC25063A99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96AB2AE2-2CC8-48BA-87FF-6DC25063A99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96AB2AE2-2CC8-48BA-87FF-6DC25063A99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96AB2AE2-2CC8-48BA-87FF-6DC25063A99A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23FE4D7D-AF0C-4ED2-9123-D2F78B0D5304}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23FE4D7D-AF0C-4ED2-9123-D2F78B0D5304}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23FE4D7D-AF0C-4ED2-9123-D2F78B0D5304}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23FE4D7D-AF0C-4ED2-9123-D2F78B0D5304}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A863EC09-B45C-404A-886A-6B8D803FE162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A863EC09-B45C-404A-886A-6B8D803FE162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A863EC09-B45C-404A-886A-6B8D803FE162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A863EC09-B45C-404A-886A-6B8D803FE162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55AD2DB6-0DE8-4C6B-8490-780A5231BDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55AD2DB6-0DE8-4C6B-8490-780A5231BDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55AD2DB6-0DE8-4C6B-8490-780A5231BDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55AD2DB6-0DE8-4C6B-8490-780A5231BDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305E06FE-BD55-4003-BF35-CFA8C1A881D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305E06FE-BD55-4003-BF35-CFA8C1A881D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305E06FE-BD55-4003-BF35-CFA8C1A881D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305E06FE-BD55-4003-BF35-CFA8C1A881D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B3EBEEC-F8EC-45E0-A207-9C830524FE26} = {E75958D6-FECD-48D5-B39D-959A154F6A96}
+		{21514EFD-D512-4CE5-A3B0-421B5AD9649E} = {E75958D6-FECD-48D5-B39D-959A154F6A96}
+		{06CCB34D-6E50-488D-A192-129F0ADF8152} = {E75958D6-FECD-48D5-B39D-959A154F6A96}
+		{E7129783-BC1A-4433-A536-C7296D5A8E93} = {E75958D6-FECD-48D5-B39D-959A154F6A96}
+		{2BC05199-9E4B-45D0-9EFF-6F1DCBF0B0DB} = {8B3EBEEC-F8EC-45E0-A207-9C830524FE26}
+		{96AB2AE2-2CC8-48BA-87FF-6DC25063A99A} = {21514EFD-D512-4CE5-A3B0-421B5AD9649E}
+		{23FE4D7D-AF0C-4ED2-9123-D2F78B0D5304} = {06CCB34D-6E50-488D-A192-129F0ADF8152}
+		{A863EC09-B45C-404A-886A-6B8D803FE162} = {E7129783-BC1A-4433-A536-C7296D5A8E93}
+		{55AD2DB6-0DE8-4C6B-8490-780A5231BDA8} = {E7129783-BC1A-4433-A536-C7296D5A8E93}
+		{305E06FE-BD55-4003-BF35-CFA8C1A881D7} = {E7129783-BC1A-4433-A536-C7296D5A8E93}
+	EndGlobalSection
+EndGlobal
